@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e6c2" />
+      <stop offset="50%" stop-color="#00b4d8" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(40, 20)">
+    <!-- Hexagon shape -->
+    <path d="M60,0 L120,35 L120,105 L60,140 L0,105 L0,35 Z" fill="url(#logoGradient)" />
+    
+    <!-- Letter E stylized -->
+    <path d="M40,40 L90,65 L90,75 L50,58 L50,70 L80,85 L80,95 L50,80 L50,95 L90,115 L90,125 L40,100 Z" fill="white" />
+    
+    <!-- Circuit pattern -->
+    <path d="M90,35 L100,35 L100,45 M110,40 L115,45 L115,60 M105,70 L115,80 L115,95 M90,105 L100,110 L110,110 M70,120 L80,125 L90,125" 
+          stroke="#00e6c2" 
+          stroke-width="2" 
+          fill="none" />
+  </g>
+</svg> 
